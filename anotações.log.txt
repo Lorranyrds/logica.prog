@@ -1,0 +1,75 @@
+VAR 
+     IDENTIFICADOR:TIPO
+Exemplo: 
+   BOLA:brinquedo
+   CHINELO:calçado
+
+Regra para identificador
+1-Deve começar com uma letra
+2- Os proximos podem ser letras ou números
+3-NÃO pode utilizar nenhum símbolo, exceto_
+4- NÃO pode conter espaços vazios
+5- NÃO pode conter letras com acentos
+6- NÃO pode ser uma palavra reservada
+ 
+EXEMPLO DE IDENTIFICADORES VÁLIDOS:
+nota1
+inicio_algoritmo
+salariobruto
+EXEMPLO DE IDENTIFICADORES INVALIDOS:
+média
+9dade
+algoritmo
+salário bruto
+
+TIPOS primitivos:
+
+INTEIRO: 1 3 -5 198 0
+REAL: 0.5 9.8 -77.3 3.1415
+CARCTERE: "GUSTAVO" "ALGORITMO" "123"
+LOGICO: VERDADEIRO E FALSO
+
+
+OPERADORES ARITMETICOS:
+
+A<-5
+B<-2
++ ADIÇÃO (A+B)7
+- SUBTRAÇÃO(A-B)3
+* MUTIPLICAÇÃO(A*B)10
+/ DIVISÃO(A/B)2.5
+\ DIVISÃO INTEIRA(A\B)2
+^ EXPONENCIAÇÃO(A^B)25
+% MÓDULO(A%B)1
+
+FUNÇÕES ARITMETICAS
+ABS: VALOR ABSOLUTO    ABS(-10) 10
+EXP: EXPONENCIAÇÃO     EXP(3,2)9
+INT: VALOR INTEIRO     INT(3.9)3
+RAIZQ: EAIZ QUADRADA   RAIZQ(25)5
+PI: RETORNA PI         PI   3,14..
+SEN: SENO (RAD)        SEN(0.523)0.5
+COS: COSSENO (RAD)     COS(0.523)0.86
+TAN: TANGENTE(RAD)     TAN(0.523)0.57
+GRAUPRAD: GRAU PARA RAD  GRAUPRAD(30)0.52
+
+OPERADORES RELACIONAIS:
+> MAIOR QUE
+< MENOR QUE 
+>= MAIOR OU IGUAL A 
+<= MENOR OU IGUAL A 
+= IGUAL A 
+<> DIFERENTE DE
+
+OPERADORES LOGICOS
+E, OU , NÃO
+
+ORDEM DE PRECEDENCIA:
+1-ARITMETICO
+()
+^
+*/
++-
+2-RELACIONAIS: TOODOS
+3-LOGICOS: E, OU, NÃO
+
